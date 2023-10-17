@@ -1,0 +1,40 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "3DTutorial65D3D",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.8.2.108",
+  },
+  "resources": [
+    {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},},
+    {"id":{"name":"vertex_add_point","path":"scripts/vertex_add_point/vertex_add_point.yy",},},
+    {"id":{"name":"load_model","path":"scripts/load_model/load_model.yy",},},
+    {"id":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},},
+    {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
+    {"id":{"name":"shd_basic_3d_stuff","path":"shaders/shd_basic_3d_stuff/shd_basic_3d_stuff.yy",},},
+    {"id":{"name":"tilemap_to_vertex_buffer","path":"scripts/tilemap_to_vertex_buffer/tilemap_to_vertex_buffer.yy",},},
+    {"id":{"name":"spr_main","path":"sprites/spr_main/spr_main.yy",},},
+    {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
+  ],
+  "templateType": null,
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
