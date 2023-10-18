@@ -1,0 +1,7 @@
+See the documentation for more details:
+https://github.com/DragoniteSpam/Documentation/wiki/Drago3D
+
+# Changes since 1.0.0
+ 
+ - World transform is used correctly
+ - Fixed cones

@@ -24,4 +24,12 @@ vertex_submit(tilemap_vb, pr_trianglelist, tileset_get_texture(ts_main));
 shader_set(shd_basic_3d_stuff);
 shader_set_uniform_f(shader_get_uniform(shd_basic_3d_stuff, "lightDirection"), 1, 1, -1);
 
+for (var i = 0; i < 20; i++) {
+    for (var j = 0; j < 20; j++) {
+        d3d_draw_ellipsoid(i * 100, j * 100, 0, i * 100 + 25, j * 100 + 25, 25, sprite_get_texture(spr_earth, 0), 1, 1, 12);
+        //d3d_draw_ellipsoid_simple(i * 100, j * 100, 0, i * 100 + 25, j * 100 + 25, 25, sprite_get_texture(spr_earth, 0));
+        //d3d_draw_sphere_simple(i * 100, j * 100, 25, 25, sprite_get_texture(spr_earth, 0));
+    }
+}
+
 shader_reset();
